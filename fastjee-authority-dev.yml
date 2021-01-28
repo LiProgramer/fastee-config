@@ -1,9 +1,10 @@
 server:
   port: 5005
 
-spring:
-security:
-  oauth2:
-    clientId: fastjee
-    clientSecret: 123456
-    scope: webapp
+Spring:
+  security:
+    basic:
+      enabled: true
+    user:
+      name: fastjee
+      password: 123456

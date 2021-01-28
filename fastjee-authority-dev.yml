@@ -1,7 +1,7 @@
 server:
   port: 5005
 
-Spring:
+spring:
   security:
     basic:
       enabled: true
